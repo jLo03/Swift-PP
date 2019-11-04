@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Log_In_Template" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgZ-bh-yMf" userLabel="Google Button">
+                                <rect key="frame" x="0.0" y="415" width="414" height="85"/>
+                                <state key="normal" backgroundImage="41761219-0e0e4d80-7629-11e8-9663-aabe62025d57-1">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sg2-zB-bcc" userLabel="Facebook Button">
+                                <rect key="frame" x="11" y="543" width="389" height="137"/>
+                                <state key="normal" backgroundImage="download"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Log In or create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYh-vl-zWK">
+                                <rect key="frame" x="32" y="27" width="347" height="608"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sYh-vl-zWK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Bup-87-Q9t"/>
+                            <constraint firstItem="sg2-zB-bcc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CjY-Ya-2f1"/>
+                            <constraint firstItem="QgZ-bh-yMf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OaJ-g8-Fb0"/>
+                            <constraint firstItem="sYh-vl-zWK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pmh-dg-Ovg"/>
+                            <constraint firstItem="QgZ-bh-yMf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Tdb-ba-BfJ"/>
+                            <constraint firstItem="sg2-zB-bcc" firstAttribute="top" secondItem="QgZ-bh-yMf" secondAttribute="bottom" constant="30" id="X8N-0k-Evj"/>
+                            <constraint firstItem="sYh-vl-zWK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YFi-lw-p8q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="41761219-0e0e4d80-7629-11e8-9663-aabe62025d57-1" width="710" height="134"/>
+        <image name="download" width="367" height="137"/>
+    </resources>
+</document>
